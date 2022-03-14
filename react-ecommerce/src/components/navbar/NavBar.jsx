@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import Carrito from '../carrito/Carrito'
 
 
 
@@ -31,7 +32,10 @@ function NavBar() {
     <Nav>
       {/*<Nav.Link href="#deets">More deets</Nav.Link>*/}
       <Nav.Link eventKey={2} href="#memes">
-        ICONO CARRITO
+        
+        <Carrito />
+
+
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>
