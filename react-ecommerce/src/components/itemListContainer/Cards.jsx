@@ -1,5 +1,5 @@
 
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Card, ListGroup, ListGroupItem} from 'react-bootstrap'
 
 function Cards({ tituloCard }) {
   return (
