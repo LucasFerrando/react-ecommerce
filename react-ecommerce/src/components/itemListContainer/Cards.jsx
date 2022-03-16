@@ -1,11 +1,11 @@
 
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
 
-function Cards({ tituloCard, imagenCard }) {
+function Cards({ tituloCard }) {
   return (
     <div>
     <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={ imagenCard } />
+    <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
     <Card.Body>
       <Card.Title>{ tituloCard }</Card.Title>
       <Card.Text>
