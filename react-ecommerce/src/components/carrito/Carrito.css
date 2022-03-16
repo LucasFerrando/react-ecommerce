@@ -1,0 +1,5 @@
+.carrito{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 10%;
+}

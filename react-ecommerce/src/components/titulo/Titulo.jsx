@@ -1,9 +1,15 @@
 import React from 'react'
 import './Titulo.css'
-export default function titulo() {
+
+
+function Titulo({tituloProps, subtitulo}) {
+
   return (
     <div>
-        <h1 className='titulo'>Ecommerce</h1>
+      <h1 className='titulo'>{ tituloProps }</h1>
+      <h2>{subtitulo}</h2>
     </div>
   )
 }
+
+export default Titulo

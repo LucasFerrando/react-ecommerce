@@ -6,6 +6,7 @@ import NavBar from './components/navbar/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import './App.css';
+import Cards from './components/itemListContainer/Cards';
 
 
 
@@ -19,11 +20,12 @@ function App() {
       
       <img src={logo} className="App-logo" alt="logo" />
       
-      <div>
-        <Titulo />
-      </div>
+      <Titulo tituloProps= 'Ecommerce' subtitulo='un lugar donde comprar'/>
+      <Cards tituloCard='soy la primer card' />
+      <Cards tituloCard='soy la segunda card'/>
+
       
-      <input placeholder='hola'/>
+      
     </div>
   );
 }
