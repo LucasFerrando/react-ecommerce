@@ -1,4 +1,4 @@
-import "./Carrito.css"
+import "../styles/Carrito.css"
 
 function Carrito() {
   return (

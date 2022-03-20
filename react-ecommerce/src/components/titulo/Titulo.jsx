@@ -1,5 +1,5 @@
 import React from 'react'
-import './Titulo.css'
+import '../styles/Titulo.css'
 
 
 function Titulo({tituloProps, subtitulo}) {
