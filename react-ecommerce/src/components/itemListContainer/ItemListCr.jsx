@@ -1,12 +1,15 @@
+import React from 'react';
+import ItemList from './ItemList';
 
 
-function ItemListCr({greeting, children}) {
-    console.log(children)
-    return (
-    <div>{greeting}
-    <h1>{children}</h1>
-    </div>
-  )
-}
+const ItemListCr = () => {
+  return (
+    <section>
+    
 
-export default ItemListCr
+      <ItemList />
+    </section>
+  );
+};
+
+export default ItemListCr;
