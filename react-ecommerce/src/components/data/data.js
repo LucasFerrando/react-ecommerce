@@ -4,7 +4,7 @@ export const productList = [
       name: 'raza-mediana 15 kg',
       price: 4000,
       thumbnail:
-        'https://www.timberline.com.ar/vital-can/831-vital-can-balanced-adulto-raza-mediana-x-15-kg-7798098844035.html',
+        'https://drive.google.com/file/d/1K1e-JDSoSsJPnL-qpZbz2HRGPva0-bX4/view?usp=sharing',
       stock: 0,
       id: 1,
     },
